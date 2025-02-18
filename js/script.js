@@ -7,7 +7,7 @@ document.querySelectorAll('.menu a').forEach(link => {
   });
 });
 
-// Делаем плавное появление карточек при загрузке
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".card").forEach((card, index) => {
     setTimeout(() => {
